@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#Menu{
+    list-style: none;
+    background-color: gold;
+}
+#Menu li a{
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+}
+#Menu li a:hover{
+    color: black;
+    background-color: white;
+}
+#Menu li{
+    display: inline-block;
+}
+#Icono{
+    padding-left: 5px;
+}
+/* #Main{
+    background-image: url("Dubai.jpg");
+    background-size: cover;
+    width: 100vh;
+    height: 100vh;
+} */
+#Principal{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 30px;
+}
