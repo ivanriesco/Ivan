@@ -6,14 +6,14 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #Menu{
-    list-style: none;
     background-color: gold;
+    list-style: none;
 }
 #Menu li a{
     color: white;
-    font-weight: 600;
-    text-decoration: none;
     display: block;
+    text-decoration: none;
+    font-weight: 600;
     padding: 15px;
 }
 #Menu li a:hover{
@@ -26,14 +26,29 @@ body{
 #Icono{
     padding-left: 5px;
 }
-/* #Main{
-    background-image: url("Dubai.jpg");
+#Main{
+    /* Hacer degradado */
+    /* background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('Edificio2.jpg'); */
+    background: rgba(0, 0, 0, 0.7) url('Edificio2.jpg');
+    background-blend-mode: darken;
     background-size: cover;
-    width: 100vh;
-    height: 100vh;
-} */
+    position: absolute;
+    height: calc(100% - 51px);
+    width: 100%;
+}
 #Principal{
-    padding-top: 10px;
+    color: white;
     text-align: center;
+    padding: 10px;
     font-size: 30px;
+}
+#Formulario{
+    color: white;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    width: 50%;
+}
+#Parrafo{
+    color: white;
 }
