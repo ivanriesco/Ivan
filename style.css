@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -29,7 +30,7 @@ body{
 #Main{
     /* Hacer degradado */
     /* background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('Edificio2.jpg'); */
-    background: rgba(0, 0, 0, 0.7) url('Edificio2.jpg');
+    background: rgba(0, 0, 0, 0.7) url('img/Edificio2.jpg');
     background-blend-mode: darken;
     background-size: cover;
     position: absolute;
@@ -43,12 +44,24 @@ body{
     font-size: 30px;
 }
 #Formulario{
+    background-color: lightgrey;
     color: white;
     margin: auto;
     padding: 20px;
     text-align: center;
     width: 50%;
 }
-#Parrafo{
+.parrafo{
     color: white;
+}
+.secundario{
+    color: white;
+}
+.columnas{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+    grid-gap: 2px;
+    text-align: center;
 }
